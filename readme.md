@@ -13,7 +13,16 @@ Write = Só escreve na tela;
 
 
 
-Variaves
+Variaves-
+
+As variáveis são utilizadas para armazenar os dados que um programa deve manipular. Toda
+variável possui um nome (identificador). Para acessar ou alterar o conteúdo de uma variável, é necessário utilizar o nome dessa variável.
+Em C#, toda variável possui um tipo. O tipo de uma variável determina o que pode ou não ser
+armazenado nela. Por exemplo, podemos determinar que uma variável só pode armazenar números
+inteiros.
+
+Tipos variaveis
+
 Double - admite valores com ponto e também admite números inteiros;
 Float - admite pontos flutuantes e casas decimais 
 Int - só admite números inteiros.
@@ -24,7 +33,7 @@ int idade = 23; -cria e atribui o valor da variavel
 int idade ; 
 
 Para concatenar valores no Console.WriteLine usamos o sinal + 
-exe: Console.WriteLine("a idade é "+ idade + ", parabéns!");
+exe: Console.WriteLine1976078("a idade é "+ idade + ", parabéns!");
 
 
 Tipo double
@@ -37,3 +46,30 @@ Tipo float
 
 float altura;
 float altura = 1.80f
+
+
+Constantes
+
+Definições:
+-Utilizamos uma constante para armazenar uma informação
+-As constantes NÃO PODEM ser alteradas
+ex:
+const int IDADE_MINIMA; //Correto inica com ZERO
+const int IDADE_MINIMA =23;
+
+
+
+Tipos primitivos
+Definições:
+-São tipos base cuso outros tipos(Complexos) irão derivar
+-Definir o tipo correto otimiza a execuçãõ do programa
+-São chamados de Tipos de valor
+-Armazenam o valor e não a referencia para um item na memoria
+-São classificados em:
+    -Tipos Simples(Simple Types)
+    -Enumeradores(Enum)
+    -Estruturas(Structs)
+    -Tipos Nulos(Nullable Types)
+
+
+
