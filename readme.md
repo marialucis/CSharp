@@ -16,7 +16,7 @@ Write = Só escreve na tela;
 Variaves-
 
 As variáveis são utilizadas para armazenar os dados que um programa deve manipular. Toda
-variável possui um nome (identificador). Para acessar ou alterar o conteúdo de uma variável, é necessário utilizar o nome dessa variável.
+variável possui um nome (identificador). Para acessar ou alterar o conteúdo de uma variável, é necessário utilizar o nome dessa variável.
 Em C#, toda variável possui um tipo. O tipo de uma variável determina o que pode ou não ser
 armazenado nela. Por exemplo, podemos determinar que uma variável só pode armazenar números
 inteiros.
