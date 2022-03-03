@@ -4,11 +4,11 @@
 
 Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
 
-Console.WriteLine(); escreve na tela
-Consele.ReadLine(); aguardar o teclado/recebe parametros do tecledo
+ - Console.WriteLine(); escreve na tela
+ - Consele.ReadLine(); aguardar o teclado/recebe parametros do tecledo
 
-WriteLine = escreve na tela e pula linha;
-Write = Só escreve na tela; 
+ - WriteLine = escreve na tela e pula linha;
+ - Write = Só escreve na tela; 
 
 
 
@@ -23,11 +23,11 @@ inteiros.
 
 #### Tipos variaveis-
 
-Double - admite valores com ponto e também admite números inteiros;
-Float - admite pontos flutuantes e casas decimais 
-Int - só admite números inteiros.
+ - Double - admite valores com ponto e também admite números inteiros;
+ - Float - admite pontos flutuantes e casas decimais 
+ - Int - só admite números inteiros.
 
-#### TIpo inteiros-
+#### Tipo inteiros-
 
 int idade = 23; -cria e atribui o valor da variavel 
 int idade ; 
@@ -49,8 +49,7 @@ float altura = 1.80f
 
 
 #### Constantes-
-
- Definições:
+    Definições:
 - Utilizamos uma constante para armazenar uma informação
 - As constantes NÃO PODEM ser alteradas
  ex:
@@ -73,31 +72,31 @@ float altura = 1.80f
 
 
 
- #### Byte
-   Definições:
+ #### Byte-
+    Definições:
    - O tipo byte é utilizado para representar um byte de fato
    - Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo
    - Temos também o sbyte que permite vvalores negativos
   
- #### Signed e Usigned
+ #### Signed e Usigned-
     Valores com sinal como "-" por exemplo, são chamados de signed.
 
 
-#### Numeros Inteiros
-Definições:
+#### Numeros Inteiros-
+     Definições:
  - Numeros inteiros, ou seja, sem pontuação, podem ser definidos pelos TIPOS
  - Int
  - Short
  - Long
 
-#### Numeros Reais
-Definições:
+#### Numeros Reais-
+    Definições:
 - Numeros   que exigem uma maior precisam, ou seja, com pontuação
 - Float
 - double
 - decimal
 
-#### Boolean   
+#### Boolean-   
     Definições:
 - Tipo booliano armazena apenas true ou false(Verdadeiro ou False)
 - Definido pela palavra reservada bool
@@ -109,7 +108,7 @@ Definições:
   bool pagamentoRecebido = true;
 
 
-#### Char
+#### Char-
     Definições:
 - Utilizado para armazenar apenas um caractere no formato Unicode
 - Definido pela palavra reservada char
@@ -121,7 +120,7 @@ char primeiraLetraa = 'C';
 char segundaLetra =  'D';
 
 
-#### String
+#### String-
     Definições:
 - Armazena uma cadeia de caracteres
 - Podemos pensar nele como uma lista de char
