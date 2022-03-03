@@ -110,25 +110,27 @@ float altura = 1.80f
 
 #### Char-
     Definições:
-- Utilizado para armazenar apenas um caractere no formato Unicode
-- Definido pela palavra reservada char
-- A atribuição de um valor char é dada por aspas simples
-- char(16-bit)
+  - Utilizado para armazenar apenas um caractere no formato Unicode
+  - Definido pela palavra reservada char
+  - A atribuição de um valor char é dada por aspas simples
+  - char(16-bit)
 
-ex:
-char primeiraLetraa = 'C';
-char segundaLetra =  'D';
+    ex:
+   - char primeiraLetraa = 'C';
+   - char segundaLetra =  'D';
 
 
 #### String-
     Definições:
-- Armazena uma cadeia de caracteres
-- Podemos pensar nele como uma lista de char
-- Definido pela palavra reservada string
-- A atribuição de um valor strinf é dada por aspas duplas
+  - Armazena uma cadeia de caracteres
+  - Podemos pensar nele como uma lista de char
+  - Definido pela palavra reservada string
+  - A atribuição de um valor string é dada por aspas duplas
   
-  ex:
-  
+    ex:
+   - string primeiraLetra = "L";
+   - string text = "Meu texto";
+   - var documento = "123456789";
 
 
 
