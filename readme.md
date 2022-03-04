@@ -136,9 +136,9 @@ float altura = 1.80f
 
  #### Var-
      Definições:
-   - Substitui o nome de um tipo
-   - Será do tipo do primeiro valor atribuido
-   - Recomendado o uso
+  - Substitui o nome de um tipo
+    - Será do tipo do primeiro valor atribuido
+    - Recomendado o uso
 
     ex:
     - var idade = 25; //sera do tipo int
