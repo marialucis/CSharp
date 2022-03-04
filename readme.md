@@ -204,20 +204,20 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
 
   #### Operadores Aritméticos-
       Definições:
-  - Soma => +
-  - Subtração => -
-  - Multiplicação => *
-  - Divisão => /
+      - Soma => +
+      - Subtração => -
+      - Multiplicação => *
+      - Divisão => /
 
-  ex: 
-    - Multiplicação e divisão são executadas primeiro
-    - Caso queira executar em outra ordem, usar parentes
-    - Aceita short, int, floart, double e decimal
+      ex: 
+      - Multiplicação e divisão são executadas primeiro
+      - Caso queira executar em outra ordem, usar parentes
+      - Aceita short, int, floart, double e decimal
   
-    * int soma = 25 + 22; //47
-    * int subtracao = 25 - 22; //3
-    * int multiplicacao = 25 * 22; //550
-    * int divisao = 22/5 //4 
+      * int soma = 25 + 22; //47
+      * int subtracao = 25 - 22; //3
+      * int multiplicacao = 25 * 22; //550
+      * int divisao = 22/5 //4 
   
 
   
@@ -243,47 +243,47 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
   
 
  #### Operadores Lógicos-
-    Definições:
-  - Usado para operações condicionais
-  - Retorna SEMPRE verdadeiro ou Falso
-  - E - and
-  - Deve atender TODAS as condições
-  - &&
-  - OU - or
-  - Se atender uma condição já retorna verdadeiro
-  - ||
-  - NEGAÇÃO -not
-  -  !
+     Definições:
+     - Usado para operações condicionais
+     - Retorna SEMPRE verdadeiro ou Falso
+     - E - and
+     - Deve atender TODAS as condições
+     - &&
+     - OU - or
+     - Se atender uma condição já retorna verdadeiro
+     - ||
+     - NEGAÇÃO -not
+     -  !
   
-    ex:
+     ex:
       int x = 12;
-    - bool and = (x < 25) && (x < 40); //false
-    - bool ou = (x > 25) || (x < 40); //true
-    - bool negacao = !( x < 25); //false
+      - bool and = (x < 25) && (x < 40); //false
+      - bool ou = (x > 25) || (x < 40); //true
+      - bool negacao = !( x < 25); //false
 
 
 
  #### Estrutura condicional: if
       Definições:
-  - Tradução: "SE" ou seja, "Caso alguma condição seja atendida"
-  - Utilizado para tomada de decisões
-  - Utiliza os operadores lógicos
+      - Tradução: "SE" ou seja, "Caso alguma condição seja atendida"
+      - Utilizado para tomada de decisões
+      - Utiliza os operadores lógicos
   
-  - Complemento ao if
-  - Caso a condição não seja atendida
-  - Podemos ter
-    - else if(codição)
-  - Podemos ter apenas else para exexutar algo caso a condição seja atendida
+      - Complemento ao if
+      - Caso a condição não seja atendida
+      - Podemos ter
+      - else if(codição)
+      - Podemos ter apenas else para exexutar algo caso a condição seja atendida
 
-    ex:
-     - if(condicao){ //caso seja verdadeiro
-     - } else{ //caso seja falso
-     - }
+      ex:
+       - if(condicao){ //caso seja verdadeiro
+       - } else{ //caso seja falso
+       - }
 
-     - if(condicao){ // caso seja verdadeiro
-     - } else if(condicao){ //senao, testa outra condicao
-     - } else if(condicao){ //senao,testa outra condicao
-     - } else { //se nao acontecer nenhuma das anteriores
-     - }
+       - if(condicao){ // caso seja verdadeiro
+       - } else if(condicao){ //senao, testa outra condicao
+       - } else if(condicao){ //senao,testa outra condicao
+       - } else { //se nao acontecer nenhuma das anteriores
+       - }
 
 
