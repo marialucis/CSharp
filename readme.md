@@ -134,4 +134,71 @@ float altura = 1.80f
 
 
 
+ #### Var-
+     Definições:
+   - Substitui o nome de um tipo
+   - Será do tipo do primeiro valor atribuido
+   - Recomendado o uso
+
+    ex:
+    - var idade = 25; //sera do tipo int
+    - var nome = "Andre"; //sera do tipo string
+  
+
+
+  #### Null
+      Definições:
+    - Significa vazio, nada
+    - Diferente de zero ou uma string vazia
+    - Todo tipo, primitivo ou complexo pode receber o valor null
+    - O tipo deve ser marcado como Nullable Type
+
+    ex:
+    - int? idade = null; //atribuindo null a variavel
     
+
+  #### obs: void = vazio
+
+  #### Alias
+      Definições:
+    - Alias é um apelido
+    - Como o C# é Case Sensitive, tanto faz escrevermos um ou outro
+    - Porém o recomendado é sempre usar o alias
+
+    ex:
+    - int idade = 25; // alias
+
+
+  #### Valores padrões
+      Definições:
+    - Todo tipo built-in, já possui um valor padrão
+    - Se nenhum valor for informado,seu valor padrão será utilizado
+  
+    ex:
+    - int => 0
+    - float => 0
+    - decimal => 0
+    - char => '\0'
+    - string => ""
+  
+
+  #### Parse
+      Definições:
+    - Metodo presentte em todo tipo primitivo
+    - Usado para converter um caractere ou string para um tipo qualquer
+    - Caso haja alguma incompatibilidade, gera um erro
+  
+    ex:
+    - int inteiro = int.Parse("100");
+
+  #### Convert
+      Definições:
+    - Similar ao parse visto anteriormente
+    - Porém permite converter vários tipos de valor
+      - Não apenas string
+    - Devemos informar o tipo na chamada da conversão
+
+    ex:
+      - int inteiro = Convert.ToInt32("100")   ;
+
+
