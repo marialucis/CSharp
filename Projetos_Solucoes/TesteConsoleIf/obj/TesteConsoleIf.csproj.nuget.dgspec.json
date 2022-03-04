@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsole\\TesteConsole.csproj": {}
+    "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsoleif\\TesteConsoleIf.csproj": {}
   },
   "projects": {
-    "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsole\\TesteConsole.csproj": {
+    "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsoleif\\TesteConsoleIf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsole\\TesteConsole.csproj",
-        "projectName": "TesteConsole",
-        "projectPath": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsole\\TesteConsole.csproj",
+        "projectUniqueName": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsoleif\\TesteConsoleIf.csproj",
+        "projectName": "TesteConsoleIf",
+        "projectPath": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsoleif\\TesteConsoleIf.csproj",
         "packagesPath": "C:\\Users\\Lux\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsole\\obj\\",
+        "outputPath": "D:\\Repositorio_git\\9_Curso_CSharp\\projetos_solucoes\\testeconsoleif\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lux\\AppData\\Roaming\\NuGet\\NuGet.Config"
