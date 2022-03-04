@@ -146,7 +146,7 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
   
 
 
-  #### Null
+  #### Null-
       Definições:
     - Significa vazio, nada
     - Diferente de zero ou uma string vazia
@@ -159,7 +159,7 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
 
   #### obs: void = vazio
 
-  #### Alias
+  #### Alias-
       Definições:
     - Alias é um apelido
     - Como o C# é Case Sensitive, tanto faz escrevermos um ou outro
@@ -169,7 +169,7 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
     - int idade = 25; // alias
 
 
-  #### Valores padrões
+  #### Valores padrões-
       Definições:
     - Todo tipo built-in, já possui um valor padrão
     - Se nenhum valor for informado,seu valor padrão será utilizado
@@ -182,7 +182,7 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
     - string => ""
   
 
-  #### Parse
+  #### Parse-
       Definições:
     - Metodo presentte em todo tipo primitivo
     - Usado para converter um caractere ou string para um tipo qualquer
@@ -191,7 +191,7 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
     ex:
     - int inteiro = int.Parse("100");
 
-  #### Convert
+  #### Convert-
       Definições:
     - Similar ao parse visto anteriormente
     - Porém permite converter vários tipos de valor
@@ -200,5 +200,90 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
 
     ex:
       - int inteiro = Convert.ToInt32("100")   ;
+
+
+  #### Operadores Aritméticos-
+      Definições:
+  - Soma => +
+  - Subtração => -
+  - Multiplicação => *
+  - Divisão => /
+
+  ex: 
+    - Multiplicação e divisão são executadas primeiro
+    - Caso queira executar em outra ordem, usar parentes
+    - Aceita short, int, floart, double e decimal
+  
+    * int soma = 25 + 22; //47
+    * int subtracao = 25 - 22; //3
+    * int multiplicacao = 25 * 22; //550
+    * int divisao = 22/5 //4 
+  
+
+  
+  #### Operadores de atribuição-
+      Definições:
+      - Utilizamos igual para atribuir um valor
+      - Porém, podemos utilizar igual junto a um operador aritmético
+      - x += 5 é o mesmo que x = x + 5
+  
+  #### Operadores de comparação-
+      Definições: A comparação sempre retorna True ou False
+      - Igual ==
+      - Diferente !=
+      - Maior que >
+      - Menor que <
+      - Maior ou igual a >=
+      - Menor ou igual que  <=
+
+      ex:
+       - var x = 5;
+       - var y = 10;
+       - Console.WriteLine(x<y);
+  
+
+ #### Operadores Lógicos-
+    Definições:
+  - Usado para operações condicionais
+  - Retorna SEMPRE verdadeiro ou Falso
+  - E - and
+  - Deve atender TODAS as condições
+  - &&
+  - OU - or
+  - Se atender uma condição já retorna verdadeiro
+  - ||
+  - NEGAÇÃO -not
+  -  !
+  
+    ex:
+      int x = 12;
+    - bool and = (x < 25) && (x < 40); //false
+    - bool ou = (x > 25) || (x < 40); //true
+    - bool negacao = !( x < 25); //false
+
+
+
+ #### Estrutura condicional: if
+      Definições:
+  - Tradução: "SE" ou seja, "Caso alguma condição seja atendida"
+  - Utilizado para tomada de decisões
+  - Utiliza os operadores lógicos
+  
+  - Complemento ao if
+  - Caso a condição não seja atendida
+  - Podemos ter
+    - else if(codição)
+  - Podemos ter apenas else para exexutar algo caso a condição seja atendida
+
+    ex:
+     - if(condicao){ //caso seja verdadeiro
+     - } else{ //caso seja falso
+     - }
+
+     - if(condicao){ // caso seja verdadeiro
+     - } else if(condicao){ //senao, testa outra condicao
+     - } else if(condicao){ //senao,testa outra condicao
+     - } else { //se nao acontecer nenhuma das anteriores
+     - }
 
 
