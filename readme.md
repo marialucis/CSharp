@@ -286,4 +286,5 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
        - } else { //se nao acontecer nenhuma das anteriores
        - }
 
-
+  ### Estrutura condicional: Switch
+     
