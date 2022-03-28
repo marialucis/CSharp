@@ -19,7 +19,7 @@ namespace TesteConsole
 
             //atribuindo valor a variavel e fazendo a operação de comparacao, retorno sempre sera um boolean
             // var x = 5;
-            //var y = 10;
+            //var y = 105;
             //Console.WriteLine(x < y);
 
             //operadores aritimeticos
