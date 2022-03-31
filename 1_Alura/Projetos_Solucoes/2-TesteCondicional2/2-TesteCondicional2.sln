@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-TesteCondicional2", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteIR", "TesteIR\TesteIR.csproj", "{0CE03901-082D-4475-8C94-B707F6565B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculandoSalario", "CalculandoSalario\CalculandoSalario.csproj", "{5D593F69-A8E8-48F9-BD2A-A83D4CADE8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpostoDeRenda", "ImpostoDeRenda\ImpostoDeRenda.csproj", "{CA5D04DF-C8DC-43BD-BF70-482C16635794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0CE03901-082D-4475-8C94-B707F6565B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE03901-082D-4475-8C94-B707F6565B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE03901-082D-4475-8C94-B707F6565B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D593F69-A8E8-48F9-BD2A-A83D4CADE8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D593F69-A8E8-48F9-BD2A-A83D4CADE8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D593F69-A8E8-48F9-BD2A-A83D4CADE8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D593F69-A8E8-48F9-BD2A-A83D4CADE8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5D04DF-C8DC-43BD-BF70-482C16635794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5D04DF-C8DC-43BD-BF70-482C16635794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5D04DF-C8DC-43BD-BF70-482C16635794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5D04DF-C8DC-43BD-BF70-482C16635794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
