@@ -11,16 +11,17 @@ namespace Condicionais2
         static void Main(string[] args)
         {
 
-            int idadeLuci = 15; /*Declarando variavel*/
-            int qtdPessoa = 2;
+            int idadeLuci = 18; //Declarando variavel
+            //int qtdPessoa = 2;
+            bool acompanhado = true;
 
             Console.WriteLine("Testando Condicionais 2");
 
-            if (idadeLuci >= 18) /*condicao SE*/
+            if (idadeLuci >= 18 && acompanhado == true) //condicao SE
             {
                 Console.WriteLine("Voce possui mais de 18 anos. Pode entrar.");
             }
-            else /*Condicao SENAO*/
+            else //Condicao SENAO
 
             {
                 Console.WriteLine("Voce não possui 18 anos, não pode entrar");
