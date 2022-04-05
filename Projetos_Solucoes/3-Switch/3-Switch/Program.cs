@@ -7,7 +7,11 @@ class Programa
 {
     static void Main(String[] args)
     {
-        int mes = 10;
+        //Declarando a variavel
+        int mes; 
+
+        Console.WriteLine("Digite o numero do mes: ");
+        mes=int.Parse(Console.ReadLine());   // recendo entrada do teclado utilizando o Parse para conversão da String
 
         switch (mes)
         {
