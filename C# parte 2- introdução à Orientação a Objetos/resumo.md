@@ -31,3 +31,6 @@
 retun: o uso do return para retornar antecipadamente a execução de um método;
 this:é uma referencia e serve para acessar um atributo; 
 metodos: métodos são chamadas a partir da referência usando o operador . ;
+
+
+### Namespace composição e null
