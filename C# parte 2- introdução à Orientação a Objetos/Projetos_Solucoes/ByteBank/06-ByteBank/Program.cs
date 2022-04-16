@@ -10,11 +10,23 @@ namespace _06_ByteBank
     {
         static void Main(string[] args)
         {
+            //Definindo os objetos
             ContaCorrente conta = new ContaCorrente();
+            Cliente cliente = new Cliente();
 
-            conta.SetSaldo(-10);
+            //dados cliente
+            cliente.Nome = "Luci";
+            cliente.CPF ="100.000.000-00" ;
+            cliente.Profissao = "Desenvolvedora .NET";
 
-            Console.WriteLine(conta.GetSaldo());
+            //referenciando 
+            conta.Saldo = -10;
+            conta.Titular = cliente;
+
+            Console.WriteLine(conta.Titular.Nome);
+            Console.WriteLine(conta.Titular.CPF);
+            Console.WriteLine(conta.Saldo);
+            
 
             Console.ReadLine();
 

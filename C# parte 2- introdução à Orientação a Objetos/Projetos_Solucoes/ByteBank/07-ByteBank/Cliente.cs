@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _06_ByteBank
+namespace _07_ByteBank
 {
    public class Cliente
     {
@@ -32,4 +32,3 @@ namespace _06_ByteBank
 
     }
 }
-
