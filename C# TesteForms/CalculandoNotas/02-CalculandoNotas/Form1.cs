@@ -25,7 +25,7 @@ namespace _02_CalculandoNotas
             double media ;
 
              
-            //convert
+            //convertendo 
             nota1 = Convert.ToInt32(txtNota1.Text);
             nota2 = Convert.ToInt32(txtNota2.Text);
             nota3 = Convert.ToInt32(txtNota3.Text);
@@ -33,6 +33,7 @@ namespace _02_CalculandoNotas
 
             media = (nota1 + nota2 + nota3 + nota4) / 4;
 
+            //logica do calculo de notas
             if (media >= 6)
             {
                 MessageBox.Show("Aprovado: " + media);
