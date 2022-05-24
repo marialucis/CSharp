@@ -279,4 +279,39 @@ Toda aplicação CSharp deve conter o bloco(funcao ou metodo) Main.
        - } else if(condicao){ //senao, testa outra condicao
        - } else if(condicao){ //senao,testa outra condicao
        - } else { //se nao acontecer nenhuma das anteriores
-       - }
+
+  ### Switch
+      Definições:
+      - Utilizado quando temos muitas decisões
+      - Executado em cascata
+      - Devemos parar manualmente a execução com o comando break
+      - Possui uma execução padrão chamado default
+  
+    exe:
+  int valor = 1;
+  switch(valor)
+  {
+      case 1: Console.WriteLine("1");
+       break;
+      case 2: Console.WriteLine("2");
+       break;
+      case 3: Console.WriteLine("3");
+       break;
+      default: Console.WriteLine("4");// se não for 1,2 ou 3
+      break;
+  }
+
+
+
+ ## Funções/metodos
+    Definições:
+
+
+
+
+"VOID SEMPRE RETORNA NULL"
+
+
+ ## VALUE TYPES
+  Definições:
+    
