@@ -2,7 +2,7 @@
 
 ### Objetivos: 
 
-    *  Criar a classe Estoque;
+    *  Criar a classe Estoque do produto;
     *  Criar seus atributos e metodos;
     *  Instanciar/Criar seu objeto e referencia;
   
