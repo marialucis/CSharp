@@ -12,7 +12,7 @@ namespace Escola
         public int matricula;
         public string nome;
         public string rg;
-        public DateTime data;
+        public string data;
 
 
     }

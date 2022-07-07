@@ -9,7 +9,7 @@ namespace Escola
 {
     class TestaFuncionario
     {
-        static void main()
+        static void Main()
         {
 
             //CRIANDO O OBJETO
@@ -24,7 +24,14 @@ namespace Escola
             Console.WriteLine("Nome: " + funcionario.profissao);
             Console.WriteLine("Salario: " + funcionario.salario);
 
-            Console.ReadKey();
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Verificando salario para receber o reajuste...");
+            funcionario.AumentoSalario(funcionario.salario); //metodo
+
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Exibibdo dados do Funcionario...");
+            funcionario.ExibeDados(); //metodo
+            Console.ReadLine();
 
         }
     }

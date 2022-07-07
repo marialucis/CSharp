@@ -26,7 +26,7 @@ namespace Escola
                 Console.WriteLine("Aprovado");
                 return true;
             }
-            else if (media <= 5)
+            else if (media >= 5)
             {
                 Console.WriteLine("Recuperação");
                 return false;

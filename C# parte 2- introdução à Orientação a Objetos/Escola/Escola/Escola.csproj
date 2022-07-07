@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Escola.TestaTurma</StartupObject>
+    <StartupObject>Escola.TestaNotas</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
