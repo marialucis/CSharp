@@ -53,7 +53,6 @@ namespace Escola
             aluno2.nome = "TesteLux";
 
 
-
             Console.WriteLine("-------Dados notas do segundo aluno-------");
             Console.WriteLine("Nome: " + aluno2.nome);
             Console.WriteLine("Nota 1: " + notasA2.nota1);
