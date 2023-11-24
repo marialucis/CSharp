@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Globalization;
+// See https://aka.ms/new-console-template for more information
 
 /*
 Programador(a): Luci Sousa
@@ -13,7 +14,7 @@ Considere o valor de π = 3.14159
 */
 
 //variaveis
-double pi = Math.Round(3.14159,4);
+double pi = 3.14159;
 double raio ;
 double area;
 
@@ -25,6 +26,6 @@ raio = double.Parse(Console.ReadLine());
 
 area = (pi * (raio * raio));
 
-Console.WriteLine($"Area: {area}");
+Console.WriteLine("Area: " +area.ToString("F4",  CultureInfo.InvariantCulture));
 
 Console.ReadLine();
