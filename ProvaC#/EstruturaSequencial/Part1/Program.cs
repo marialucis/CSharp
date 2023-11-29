@@ -10,11 +10,13 @@ Calcule e mostre o valor a ser pago.
 */
 
 //variaveis
+using System.Globalization;
+
 int pc1;
 int qtd1 = 0;
 int pc2;
 int qtd2 = 0;
-decimal valorUnitarioPc1 , valorUnitarioPc2, valorAPagar1;
+double valorUnitarioPc1 , valorUnitarioPc2, valorAPagar1;
 
 
 
@@ -27,16 +29,16 @@ pc1 =int.Parse(Console.ReadLine());
 Console.WriteLine("Informe a quantidade de peças: ");
 qtd1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Informe o valor Unitario: ");
-valorUnitarioPc1 = decimal.Parse(Console.ReadLine());
+valorUnitarioPc1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 Console.WriteLine("Informe o codigo da segunda peça : ");
 pc2 =int.Parse(Console.ReadLine());
 Console.WriteLine("Informe a quantidade de peças: ");
 qtd2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Informe o valor Unitario: ");
-valorUnitarioPc2 = decimal.Parse(Console.ReadLine());
+valorUnitarioPc2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 valorAPagar1 = (qtd1 * valorUnitarioPc1) + (qtd2 * valorUnitarioPc2);
 
-Console.WriteLine($"Valor a Pagar: {valorAPagar1}");
+Console.WriteLine("Valor a Pagar: " + valorAPagar1.ToString("F2",CultureInfo.InvariantCulture));
 
 Console.ReadLine();
